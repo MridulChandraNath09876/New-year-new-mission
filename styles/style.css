@@ -3,6 +3,11 @@
     color: #ff0000;
 }
 
+body{
+    width: 1200px;
+    margin: 0px auto;
+}
+
 .banner{
     background: url(../resources/Banner\ Image.png);
     background-repeat: no-repeat;
@@ -16,6 +21,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 h3{
@@ -37,5 +43,84 @@ h1{
     flex-direction: column;
     text-align: center;
 
+}
+
+/* Description banner section */
+.banner2{
+    display: flex;
+    justify-content: space-between;
+
+
+    background: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content h1{
+    text-align: left;
+    padding:20px 40px;
+}
+
+p{
+    text-align: left;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.banner-content button{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 0px;
+    background-color: antiquewhite;
+    border: 0px;
+    border-radius: 5px;
+}
+
+/* Place and time section */
+.placeAndTimeSection{
+    background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #1dd1a1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.placeAndTimeSection button{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 0px;
+    background-color: red;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.portfolioSection, .imageContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
 }
 
