@@ -123,4 +123,30 @@ p{
     padding: 10px;
     gap: 10px;
 }
+/* Subscribe section */
+.subscribeSection{
+    background-color: antiquewhite;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+   
+}
 
+input{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 14px 0px 0px 14px;
+    border: none;
+    text-align: center;
+}
+form button{
+    width: 100px;
+    height: 40px;
+    background-color: #ff0000;
+    border-radius: 0px 14px 14px 0px;
+    border: none;
+}
